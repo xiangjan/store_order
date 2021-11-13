@@ -3,7 +3,7 @@
 # 음식점 주문 및 계산 시스템 backend 개발
 
 ## 구성 
-### SPring boot 
+### Sprring boot 
 ### Kotlin
 ### MongoDB
 
