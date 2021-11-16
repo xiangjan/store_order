@@ -14,8 +14,7 @@ interface OrderRepository: MongoRepository<Order,String>, QuerydslPredicateExecu
 
 @Repository
 class OrderRepositorySupport(
-    private val orderRepository: OrderRepository,
-    private val mongoTemplate: MongoTemplate
+    private val orderRepository: OrderRepository
 ){
     fun findAllActiveOrder(): List<Order> {
         return orderRepository

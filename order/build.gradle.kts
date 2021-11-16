@@ -33,6 +33,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("com.querydsl:querydsl-mongodb:4.4.0")
 	kapt("com.querydsl:querydsl-apt:4.4.0:jpa")
+	implementation("org.springframework.boot:spring-boot-starter-aop:2.5.6")
 	kapt("org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final")
 
 }

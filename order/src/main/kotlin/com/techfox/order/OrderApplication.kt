@@ -6,7 +6,6 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication(exclude = [DataSourceAutoConfiguration::class])
 class OrderApplication
-
 fun main(args: Array<String>) {
 	runApplication<OrderApplication>(*args)
 }
